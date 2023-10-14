@@ -1,0 +1,165 @@
+.employment {
+    height: 45vh;
+    width: 100vw;
+    margin-top: 65vh;
+}
+
+.employment .title {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    left:51%;
+    transform:translateX(-51%);
+}
+
+.employment .title h3 {
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center; 
+    font-family: 'Open Sans';
+    font-size: 250%;
+    padding-bottom: .1vh;
+    margin-bottom: .1vh;
+}
+
+.employment .title p {
+    letter-spacing: 1em;
+}
+
+.col {
+    display: flex;
+    flex-direction: row;
+    height: 70%;
+    width: 100%;
+    position: relative;
+    top: 30%;
+}
+
+.employment .part1 {
+    height: 100%;
+    width: 49.9vw;
+    clip-path: polygon(98% 0, 100% 5%, 100% 100%, 0 100%, 0 0);
+    border: 1px solid black;
+    z-index: 4;
+    
+}
+
+.employment .part1 h1 {
+    color: rgba(0, 0, 0, 0.20);
+    font-size: 350%;
+    margin-left: 90%;
+}
+
+.employment .part2 {
+    height: 100%;
+    width: 49.9vw;
+    clip-path: polygon(2% 0, 100% 0, 100% 100%, 0 100%, 0 5%);
+    border: 1px solid black;
+    position: absolute;
+    right: 0px;
+}
+
+.workplace {
+    /* height: 80%; */
+    width: 55%;
+    margin-top: 5%;
+    border-top: 1px solid rgb(29, 29, 29);
+    border-bottom: 1px solid rgb(29, 29, 29);
+}
+
+.workplace .name {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.workplace .name i {
+    position: relative;
+    width: 5%;
+    height: auto;
+    font-size:medium;
+    text-align: center;
+    margin-top: 1%;
+    padding-top: 1%;
+}
+
+.workplace .name h3 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Open Sans';
+    font-size: 100%;
+    padding-left: 1vw;
+    margin-top: 1vh;
+    margin-bottom: .1vh;
+}
+
+.workplace .content {
+    margin-left: 5%;
+    font-family: 'Open Sans';
+}
+
+.education {
+    height: 80vh;
+    width: 100vw;
+    /* margin-top: 110vh; */
+}
+
+.education .title {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    left:51%;
+    transform:translateX(-51%);
+}
+
+.education .title h3 {
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center; 
+    font-family: 'Open Sans';
+    font-size: 250%;
+    padding-bottom: .1vh;
+    margin-bottom: .1vh;
+}
+
+.education .title p {
+    letter-spacing: 1em;
+}
+
+.education .col {
+    display: flex;
+    flex-direction: row;
+    height: 40%;
+    width: 100%;
+    position: relative;
+    top: 20%;
+    margin-bottom: .1%;
+}
+
+.education .part1 {
+    height: 100%;
+    width: 49.9vw;
+    clip-path: polygon(98% 0, 100% 5%, 100% 100%, 0 100%, 0 0);
+    border: 1px solid black;
+    z-index: 4;
+    
+}
+
+.education .part1 h1 {
+    color: rgba(0, 0, 0, 0.20);
+    font-size: 350%;
+    margin-left: 90%;
+}
+
+.education .part2 {
+    height: 100%;
+    width: 49.9vw;
+    clip-path: polygon(2% 0, 100% 0, 100% 100%, 0 100%, 0 5%);
+    border: 1px solid black;
+    position: absolute;
+    right: 0px;
+}

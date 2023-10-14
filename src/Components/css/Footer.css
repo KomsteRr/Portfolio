@@ -1,0 +1,48 @@
+.footer {
+    position: relative;
+    height: 15vh;
+    margin-top: 64vh;
+    z-index: 6;
+}
+
+.footer p {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: fit-content;
+    font-family: 'Open Sans';
+    font-size: small;
+    padding: 1.5vw;
+    text-align: center;
+    position: relative;
+    left:51%;
+    transform:translateX(-51%);
+}
+
+.footer .socials {
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    left:49%;
+    transform:translateX(-49%);
+}
+
+.footer .socials li {
+    display: inline;
+    text-align: -webkit-match-parent;
+    list-style: none;
+    padding: 1vh;
+    margin-right: 1vh;
+    cursor: pointer;
+}
+
+.footer .socials li:active {
+    border: 2px solid whitesmoke;
+}
+
+.footer span {
+    display: grid;
+    place-items: center;
+    margin-top: 2.5vh;
+    font-family: 'Open Sans';
+    font-size: small;
+    font-weight: bolder;
+}

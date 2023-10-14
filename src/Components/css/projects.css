@@ -1,0 +1,63 @@
+.project {
+    height: 45vh;
+    width: 100vw;
+}
+
+.project .title {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    left:51%;
+    transform:translateX(-51%);
+}
+
+.project .title h3 {
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center; 
+    font-family: 'Open Sans';
+    font-size: 250%;
+    padding-bottom: .1vh;
+    margin-bottom: .1vh;
+}
+
+.project .title p {
+    letter-spacing: 1em;
+}
+
+.col {
+    display: flex;
+    flex-direction: row;
+    height: 70%;
+    width: 100%;
+    position: relative;
+    top: 30%;
+}
+
+.project .part1 {
+    height: 100%;
+    width: 49.9vw;
+    clip-path: polygon(98% 0, 100% 5%, 100% 100%, 0 100%, 0 0);
+    border: 1px solid black;
+    z-index: 4;
+    
+}
+
+.project .part2 {
+    height: 100%;
+    width: 49.9vw;
+    clip-path: polygon(2% 0, 100% 0, 100% 100%, 0 100%, 0 5%);
+    border: 1px solid black;
+    position: absolute;
+    right: 0px;
+}
+
+.project .mainPart {
+    position: relative;
+    height: 95vh;
+    width: 100%;
+    z-index: 5;
+    margin-top: -16.5vh;
+}

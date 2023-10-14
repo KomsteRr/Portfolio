@@ -1,0 +1,147 @@
+.skills {
+    height: 100vh;
+    width: 100vw;
+}
+
+.skills .title {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    left:51%;
+    transform:translateX(-51%);
+}
+
+.skills .title h3 {
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center; 
+    font-family: 'Open Sans';
+    font-size: 250%;
+    padding-bottom: .1vh;
+    margin-bottom: .1vh;
+}
+
+.skills .title p {
+    letter-spacing: 1em;
+}
+
+.skills .col {
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: 100%;
+    position: relative;
+    top: 15%;
+}
+
+.skills .part1 {
+    height: 100%;
+    width: 50vw;
+    clip-path: polygon(98% 0, 100% 5%, 100% 100%, 0 100%, 0 0);
+    border-top: 1px solid black;    
+}
+
+.skills .part1 h1 {
+    color: rgba(0, 0, 0, 0.20);
+    font-size: 350%;
+    margin-left: 90%;
+}
+
+.skills .part2 {
+    height: 100%;
+    width: 50vw;
+    clip-path: polygon(2% 0, 100% 0, 100% 100%, 0 100%, 0 5%);
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    position: absolute;
+    right: 0px;
+}
+
+.skills .moreSkills {
+    height: 50vh;
+    width: 100%;
+    margin-top: 15vh;
+    justify-content: center;    
+}
+
+.moreSkills .subTitle {
+    position: relative;
+    width: 50%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    left: 51%;
+    transform: translateX(-51%);
+}
+
+.subTitle h4 {
+    text-align: center;
+    font-family: 'Open Sans';
+    line-height: 2;
+    font-size: x-large;
+}
+
+.moreSkills .content {
+    width: 100%;
+    position: absolute;
+    left: 51%;
+    transform: translateX(-51%);
+}
+
+.moreSkills .content table {
+    width: 90%;
+    position: absolute;
+    left: 51%;
+    transform: translateX(-51%);
+}
+
+.moreSkills .content tr, .moreSkills .content tbody, .moreSkills .content td {
+    width: 45%;
+}
+
+.skills ul div, .moreSkills ul div {
+    display: block;
+}
+
+.skills li, .moreSkills li {
+    padding: 20px 0;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    list-style: none;
+}
+
+.skills .titre, .moreSkills .titre {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.titre span {
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+    line-height: 2;
+    font-size: 13px;
+}
+
+.titre small {
+    font-size: 85%;
+    text-transform: uppercase;
+    font-family: 'Open Sans';
+    line-height: 2;
+    padding-left: 1%;
+}
+
+.progress-line {
+    height: 2%;
+    width: 90%;
+    background-color: rgb(26, 26, 26);
+    border: 1px solid rgb(26, 26, 26);
+    padding: 5px;
+}
+
+.progress-line .line {
+    background-color: whitesmoke;
+    height: 3px;
+    display: block;
+    box-sizing: border-box;
+}

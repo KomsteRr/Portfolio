@@ -1,0 +1,119 @@
+.navBar {
+    height: 5vh;
+    width: 100vw;
+    margin-top: -3vh;
+    position: sticky;
+    z-index: 10;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.navBar .center {
+    position: absolute;
+    left:51%;
+    transform:translateX(-51%);
+    display: flex;
+    flex-direction: row;
+}
+
+.sticky {
+    position: fixed;
+    top: 3vh;
+}
+
+.center .hireMe {
+    position: relative;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: small;
+    top: .5vh;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.hireMe p {
+    padding-left: .1vw;
+}
+
+.center .nav {
+    position: relative;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: small;
+    top: .5vh;
+    margin-left: 10vw;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.nav .separator {
+    padding-right: 1vw;
+    padding-left: 1vw;
+}
+
+.center .social {
+    position: relative;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    margin-left: 10vw;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    top:-30%;
+    transform:translateY(30%);
+}
+
+.social * {
+    padding: .3vw;
+}
+
+.themeBtn {
+    border-radius: 15vh;
+    background-color: rgba(0, 0, 0, 0.1);
+    /* box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 0px 9px 20px 10px rgba(0, 0, 0, 0); */
+
+    position: relative;
+    left:90%;
+    top: 51%;
+    transform:translateX(-95%);
+    transform:translateY(-51%);
+}
+
+.slide-up {
+    animation: slide-up 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.slide-down {
+    animation: slide-down 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) reverse both;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.pointer:hover {
+    color: grey;
+}
+
+@keyframes slide-up {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-100px);
+    }
+}
+
+@keyframes slide-down {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-100px);
+    }
+}
