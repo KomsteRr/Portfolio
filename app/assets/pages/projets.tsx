@@ -31,12 +31,14 @@ export default function Projets() {
                         className={Styles.card_image}
                     />
                     <h3>MealMe</h3>
+                    
                     <small>
                         Application Mobile IOS<br/>
                         Recyclage d'aliment<br/>
                         React Native <br/>
 
                     </small>
+                    
                 </div>
             </div>
 
@@ -51,12 +53,14 @@ export default function Projets() {
                             height={342}
                             className={Styles.image}
                         />
+                        
                         <p>
                             Application Mobile IOS Développer en React Native<br/>
                             Pour le contexte de validation d'un titre RNCP Niveau 6<br/>
                             L'application a pour but d'aider à trouver des recettes de cuisine,<br/>
                             à partir de restes alimentaire, elle permet aussi de partager des recettes.<br/>
                         </p>
+                        
                     </div>
                 </div>
             }

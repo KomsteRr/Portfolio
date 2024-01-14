@@ -15,7 +15,7 @@ import Link from 'next/link';
 export default function Home() {
   const [contentShown, setContentShown] = useState("accueil");
 
-  const ShowContent = (event, contentName: string) => {
+  const ShowContent = (event: any, contentName: string) => {
     setContentShown(contentName);
 
     event.target.setAttribute("data-tag", "active")
