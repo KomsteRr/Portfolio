@@ -1,0 +1,126 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 8vh;
+    z-index: 1;
+}
+
+.main h2 {
+    text-transform: capitalize;
+    font-size: xx-large;
+    z-index: 5;
+}
+
+.main small {
+    color: gray;
+}
+
+.projet_addon {
+    display: flex;
+    height: 4vh;
+    width: .8vw;
+    background-color: khaki;
+    position: absolute;
+    top: 72vh;
+    left: 48.5vw;
+    z-index: 3;
+}
+
+.separateur {
+    height: 2px;
+    width: 15vw;
+    content: "";
+    background-color: khaki;
+    border-radius: 100%;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+}
+
+.list_projets {
+    display: flex;
+    flex-direction: column;
+}
+
+.delimiter {
+    content: "";
+    margin: 3vh;
+    display: block;
+}
+
+
+/* Project Card */
+
+.card {
+    height: auto;
+    width: auto;
+    text-align: center;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 5px 1px black;
+}
+
+.card .card_image {
+    object-fit: contain;
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+
+/* Modale */
+
+.modale {
+    position: fixed;
+    /* Stay in place */
+    z-index: 50;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+.modale .returnBG {
+    position: fixed;
+    content: "";
+    height: 100vh;
+    width: 100vw;
+    visibility: visible;
+    z-index: 70;
+}
+
+.modale .modale_card {
+    height: 70vh;
+    width: 30vw;
+    background-color: whitesmoke;
+    margin-left: 35%;
+    margin-top: 15vh;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    pointer-events: none;
+    z-index: 90;
+}
+
+.modale .modale_card .image {
+    margin-top: 15%;
+    margin-left: 20%;
+    object-fit: contain;
+    user-select: none;
+    border: 2px solid grey;
+}
+
+.modale .modale_card p {
+    text-align: center;
+    margin-top: 5%;
+}

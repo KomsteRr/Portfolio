@@ -1,0 +1,108 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 8vh;
+    z-index: 1;
+}
+
+.main h2 {
+    text-transform: capitalize;
+    font-size: xx-large;
+    z-index: 5;
+}
+
+.main strong {
+    text-transform: capitalize;
+}
+
+.main p {
+    text-align: center;
+    margin-top: 2vh;
+}
+
+.main Image {
+    position: relative;
+}
+
+.who_addon {
+    display: flex;
+    height: 4vh;
+    width: .8vw;
+    background-color: violet;
+    position: absolute;
+    top: 72vh;
+    left: 46.5vw;
+    z-index: 3;
+}
+
+.skills_addon {
+    display: flex;
+    height: 4vh;
+    width: 1.2vw;
+    background-color: cadetblue;
+    position: absolute;
+    top: 137vh;
+    left: 45.8vw;
+    z-index: 3;
+}
+
+.delimiter {
+    content: "";
+    margin: 3vh;
+    display: block;
+}
+
+.mask_photo {
+    height: 341px;
+    /* width: 384px; */
+    width: 256px;
+    border-radius: 70px;
+    overflow: hidden;
+    filter: drop-shadow(20px 15px 4px violet);
+}
+
+.mask_photo .leo {
+    margin-top: -60px;
+    border-radius: 70px;
+}
+
+.regroupement {
+    display: flex;
+    margin-left: 12vw;
+}
+
+.regroupement div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 3vw;
+}
+
+.Categorie {
+    font-size: 8em;
+    color: cadetblue;
+    filter: drop-shadow(20px 15px 4px rgba(95, 158, 160, 0.5));
+}
+
+.separateur {
+    height: 2px;
+    width: 15vw;
+    content: "";
+    background-color: violet;
+    border-radius: 100%;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+}
+
+.separateur2 {
+    height: 2px;
+    width: 15vw;
+    content: "";
+    background-color: cadetblue;
+    border-radius: 100%;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+}

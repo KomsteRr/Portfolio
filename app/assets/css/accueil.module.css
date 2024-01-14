@@ -1,0 +1,82 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 8vh;
+    z-index: 1;
+}
+
+.main h2 {
+    text-transform: capitalize;
+    font-size: xx-large;
+    z-index: 5;
+}
+
+.main p {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.accueil_addon {
+    display: flex;
+    height: 4vh;
+    width: .8vw;
+    background-color: pink;
+    position: absolute;
+    top: 72vh;
+    left: 40.5vw;
+    z-index: 3;
+}
+
+.cv_addon {
+    display: flex;
+    height: 4vh;
+    width: .8vw;
+    background-color: mediumslateblue;
+    position: absolute;
+    top: 89vh;
+    left: 47.5vw;
+    z-index: 3;
+}
+
+.download_button {
+    text-transform: uppercase;
+    font-size: 11px;
+    height: 3.5vh;
+    width: 10vw;
+    background-color: black;
+    color: whitesmoke;
+    border: 0;
+    border-radius: 25px;
+}
+
+.download_button:hover {
+    box-shadow: 0px 0px 5px 1px black;
+    cursor: pointer;
+}
+
+.download_button:active {
+    background-color: grey;
+    box-shadow: 0px 0px 0px 0px black;
+}
+
+.separateur {
+    height: 2px;
+    width: 15vw;
+    content: "";
+    background-color: pink;
+    border-radius: 100%;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+}
+
+.separateur2 {
+    height: 2px;
+    width: 15vw;
+    content: "";
+    background-color: mediumslateblue;
+    border-radius: 100%;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+}

@@ -1,0 +1,153 @@
+.header {
+    height: 60vh;
+    width: 100vw;
+    top: 0px;
+    left: 50%;
+    background-color: black;
+    color: whitesmoke;
+    padding-top: 7vh;
+    padding-left: 10vw;
+    user-select: none;
+}
+
+.hover:hover {
+    box-shadow: 0px 0px 5px 1px white;
+    cursor: pointer;
+}
+
+.container_title {
+    height: auto;
+    width: auto;
+    display: flex;
+}
+
+.container_title * {
+    margin-left: 1vw;
+}
+
+.name {
+    margin-top: 2vw;
+    text-transform: uppercase;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-size: medium;
+    font-weight: bolder;
+    line-height: 1.25em;
+}
+
+.job {
+    display: grid;
+    grid-template: lfr / lfr;
+    /* margin-top: 2vh; */
+    /* margin-left: 20vw; */
+}
+
+.job span {
+    text-transform: capitalize;
+    font-size: 100px;
+    font-weight: bolder;
+}
+
+.contact_socials {
+    padding-top: 3vh;
+    display: flex;
+}
+
+.contact_button {
+    text-transform: uppercase;
+    font-size: 11px;
+    height: 3.5vh;
+    width: 10vw;
+    background-color: whitesmoke;
+    border: 0;
+    border-radius: 25px;
+}
+
+.contact_socials button:active {
+    background-color: grey;
+    box-shadow: 0px 0px 0px 0px white;
+}
+
+.socials {
+    margin-top: .5vh;
+    margin-left: 2vw;
+}
+
+.socials button {
+    text-transform: uppercase;
+    font-size: 11px;
+    height: 2.5vh;
+    width: 1.5vw;
+    background-color: whitesmoke;
+    border: 0;
+    border-radius: 25px;
+    margin-right: .5vw;
+}
+
+.navbar {
+    height: 4vh;
+    width: 100vw;
+    background-color: white;
+    padding-top: .5vh;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+}
+
+.navbar button {
+    background-color: black;
+    color: whitesmoke;
+    height: 3vh;
+    width: auto;
+    border: 0;
+    margin-left: 1vw;
+    padding-left: .5vw;
+    padding-right: .5vw;
+    cursor: pointer;
+}
+
+.navbar button:hover {
+    box-shadow: 0px 0px 5px 1px black;
+    cursor: pointer;
+}
+
+.navbar button:active {
+    background-color: grey;
+    box-shadow: 0px 0px 0px 0px black;
+}
+
+.footer {
+    height: 20vh;
+    width: 100vw;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer h2 {
+    font-size: x-large;
+    margin-bottom: 3vh;
+}
+
+.footer .contact_button {
+    margin-bottom: 1vh;
+}
+
+.footer .contact_button:active {
+    background-color: grey;
+    box-shadow: 0px 0px 0px 0px white;
+}
+
+.footer .socials {
+    margin-left: 0vw;
+    margin-right: 0vw;
+    margin-bottom: 1.5vh;
+}
+
+.footer .socials button:active {
+    background-color: grey;
+    box-shadow: 0px 0px 0px 0px white;
+}
